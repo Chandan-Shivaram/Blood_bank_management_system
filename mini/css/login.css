@@ -1,0 +1,152 @@
+body {
+    background-color: #bedcfa;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.lcf {
+    padding: 5% 15%;
+    padding-top: 0;
+}
+
+.signinimg {
+    width: 100%;
+    padding: 7% 0;
+}
+
+.sign-frm {
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    background: #fff;
+    padding: 25px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.Sign-in h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f56a79;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1.5px solid #999;
+    outline: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.Sign-in button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Submit-btn {
+    background-color: #f56a79;
+}
+
+.Sign-in a {
+    color: #f56a79;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.Sign-in hr {
+    margin-top: 20px;
+    width: 80%;
+    background: #213e3b;
+}
+
+.fabb {
+    padding: 2px 3px;
+}
+
+.or {
+    font-family: 'Ubuntu', sans-serif;
+    background: #fff;
+    font-size: 10px;
+    width: 30px;
+    margin: -34px auto 10px;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 90px;
+    margin-top: -60px;
+}
+
+.sup {
+    padding: 3% 0;
+}
+
+.Sign-in p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lcf button:hover {
+    background-color: #00587a;
+}
+
+input:hover {
+    background-color: salmon;
+    transform: scale(1.02);
+}
+
+.mbvlogo {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .signinimg {
+        display: none;
+    }
+    .sign-frm {
+        width: auto;
+        padding: 15px;
+        margin: 16% auto 0;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .Sign-in button {
+        color: #fff;
+        width: 100%;
+        padding: 5px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .Sign-in p {
+        font-size: 13px;
+    }
+    .avatar {
+        width: 30%;
+    }
+    .input-box {
+        border-radius: 15px;
+        padding: 6px;
+        margin: 8px 0;
+        width: 100%;
+        border: 1.5px solid #999;
+        outline: none;
+        font-size: 11px;
+        font-weight: 550;
+    }
+    .mbvlogo {
+        display: block;
+    }
+}
