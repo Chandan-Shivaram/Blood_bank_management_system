@@ -1,0 +1,196 @@
+body {
+    background-color: #bedcfa;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.bimage {
+    width: 30%;
+    text-align: center;
+}
+
+.tleh {
+    color: #fbf7f0;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.regfm h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f56a79;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.regfm {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    background: #f5f5f5;
+    padding: 10px 25px;
+    margin: 8% auto 0;
+    border-radius: 25px;
+}
+
+.frow {
+    width: auto;
+    text-align: center;
+    background-color: #f56a79;
+    padding: 0 15%;
+}
+
+.fcon {
+    padding: 3% 10%;
+}
+
+label {
+    color: #213e3b;
+    width: 100%;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.gfm {
+    width: auto;
+}
+
+.ifm {
+    margin-bottom: 15px;
+}
+
+input {
+    border-radius: 05px;
+    border: 1px solid;
+}
+
+.limg {
+    width: auto;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.bttn {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-color: #f56a79;
+    width: 100%;
+    text-align: center!important;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: -1%;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.col-lg-6 {
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.input-box {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1.5px solid #999;
+    outline: none;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+option {
+    font-size: 15px;
+    font-weight: 350;
+}
+
+.rcf p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 420;
+    padding-top: 3%;
+    font-size: 15px;
+}
+
+.chb {
+    margin-right: 1%;
+}
+
+.ifm select {
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 10px 0;
+    border: 1.5px solid #999;
+    outline: none;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.rcf a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.rcf a:hover {
+    color: black;
+}
+
+input:hover {
+    background-color: salmon;
+    transform: scale(1.02);
+}
+
+.fbh1 {
+    font-size: 40px;
+}
+
+h2 {
+    display: none;
+}
+
+.mbvlogo {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .bimage {
+        display: none;
+    }
+    .tleh {
+        font-weight: 100;
+        line-height: normal;
+        font-size: 180%;
+        padding: 0%;
+    }
+    .regfm h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .regfm {
+        width: 100%;
+        padding: 30px 15px;
+        height: 400px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: justify;
+        border-radius: 15px;
+    }
+    .logoimg {
+        width: 50%;
+        padding-top: 30%;
+    }
+    label {
+        font-size: 12px;
+    }
+    .mbvlogo {
+        display: block;
+    }
+}

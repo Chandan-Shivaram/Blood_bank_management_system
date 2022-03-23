@@ -1,0 +1,251 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#title {
+    background-color: #bedcfa;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f56a79;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #0a043c;
+    padding: 2% 0;
+}
+
+.cin,
+.si {
+    background-color: #bedcfa ! important;
+    padding: 0 5%;
+    width: 100%;
+}
+
+.coin {
+    padding: 0 10%;
+    margin-left: 15% ! important;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #bedcfa ! important;
+    margin: 0 50px;
+    position: sticky;
+}
+
+.logo_img {
+    width: 70%;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #222831 ! important;
+}
+
+.title-image {
+    width: 150%;
+}
+
+.lbutton {
+    margin: 5% 3% 5% 0;
+}
+
+.in,
+.nv,
+.up {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 0.6rem 1rem !important;
+    line-height: 20px;
+}
+
+.nv {
+    border: 2px solid #bedcfa;
+}
+
+.nv:hover,
+.in:hover {
+    background-color: #f56a79;
+    border: 2px solid #f56a79;
+}
+
+.up {
+    border: 2px solid #f56a79;
+    background-color: #f56a79;
+}
+
+.up:hover {
+    background-color: #ffa5a5;
+    border: 2px solid #ffa5a5;
+}
+
+#testimonials {
+    color: #f56a79;
+    background-color: #2b4450;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testi-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 60%;
+    margin: 20px;
+}
+
+#footer {
+    text-align: center;
+    padding: 3% 13%;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+.ffab {
+    padding: 2% 3%;
+}
+
+.ffab:hover {
+    color: #44fadd;
+    cursor: pointer;
+}
+
+#footer p {
+    font-size: 15px;
+}
+
+.admin {
+    text-decoration: none !important;
+}
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+    margin: 100px auto 100px auto;
+}
+
+#about {
+    margin-top: 0;
+    padding: 3%;
+    background-color: seashell;
+}
+
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #0a043c;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mbvlogo {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-image,
+    .logo_img {
+        display: none;
+    }
+    #about {
+        /* width: 100%;
+        margin: auto; */
+        width: 100%;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: justify;
+    }
+    #title {
+        width: 90%;
+    }
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .coin {
+        padding: 0;
+        width: auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .cin {
+        padding: 0;
+    }
+    .bst {
+        display: none;
+    }
+    .nv,
+    .in,
+    .up {
+        font-size: 15px;
+    }
+    .in,
+    .nv,
+    .up {
+        /* border: 2px solid #fff; */
+        border-radius: 20px;
+        padding: 0.4rem 0.8rem !important;
+        line-height: 10px;
+    }
+    .mbvlogo {
+        display: block;
+        color: #f56a79 !important;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 800px;
+        font-size: 30px;
+        padding-right: 15%;
+    }
+    #footer p {
+        font-size: 10px;
+    }
+    h3,
+    h6 {
+        font-size: 15px;
+    }
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        position: relative;
+        padding-bottom: 1048px;
+    }
+}
